@@ -3,8 +3,8 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-import template from '../modules/template'
-import ui from '../modules/ui'
+import template from './template'
+import ui from './ui'
 
 export default new Vuex.Store({
   state: {
