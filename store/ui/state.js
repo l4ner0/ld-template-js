@@ -1,5 +1,5 @@
-export default {
-  step:1,
+export default () => ({
+  step: 1,
   modalText: {
     isModal: false,
     isPersistent: false,
@@ -12,11 +12,11 @@ export default {
   modalAlert: {
     isModal: false,
     isPersistent: false,
-    maxWidth: 350,   
+    maxWidth: 350,
     imgModal: null,
     tituloModal: null,
-    msgModal: null,     
+    msgModal: null,
     href: false,
     push: false
   }
-};
+})
